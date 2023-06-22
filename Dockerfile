@@ -18,9 +18,9 @@ RUN apt install apt-transport-https -y
 
 RUN apt-get update
 
-RUN wget http://ftp.debian.org/debian/pool/main/i/icu/libicu73_73.2-1_s390x.deb
+RUN wget http://ftp.debian.org/debian/pool/main/i/icu/libicu73_73.2-1_amd64.deb
 
-RUN dpkg -i libicu73_73.2-1_s390x.deb
+RUN dpkg -i libicu73_73.2-1_amd64.deb
 
 RUN apt install dotnet-sdk-3.1 -y
 
