@@ -18,7 +18,7 @@ RUN apt install apt-transport-https -y
 
 RUN apt-get update
 
-RUN wget http://ftp.us.debian.org/debian/pool/main/i/icu/libicu57_57.1-6+deb9u4_amd64.deb
+RUN wget http://ftp.debian.org/debian/pool/main/i/icu/libicu73_73.2-1_s390x.deb
 
 RUN dpkg -i libicu57_57.1-6+deb9u4_amd64.deb
 
